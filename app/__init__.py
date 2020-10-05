@@ -12,3 +12,4 @@ bootstrap = Bootsrap(app)
 
 
 from app import views
+from app import error
