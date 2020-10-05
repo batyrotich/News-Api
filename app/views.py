@@ -12,9 +12,8 @@ def index():
 
 
 
-@app.route('/articles/<id>')
-def news(id):
-    article = get_articles(id)
-    print(article)
-    return render_template('articles.html',article = article)
+@app.route('/articles/<source_id>')
+def articles(source_id):
+    articles = get_articles(source_id)
+    return render_template('articles.html', article = article)
 
