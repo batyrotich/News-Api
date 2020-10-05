@@ -1,6 +1,7 @@
 from app import app
 import urllib, json
 from app.models.news import Source, Article
+import requests
 
 
 #Getting API key 
